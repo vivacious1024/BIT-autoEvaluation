@@ -17,3 +17,6 @@
 考虑到方便性，可以直接下载aEva-1.0.exe这个安装包文件，**为windows安装包**，双击即可进行安装，在安装得到的文件夹中双击aEva24.exe即可运行，这个方法较为简便，不需要电脑有java环境
 
 **下载驱动程序时会出现SF4J的warning**，不必在意，等一会就好了
+
+从github上下载安装包之后，双击即可安装到指定位置，得到文件夹如图示：![image](https://github.com/user-attachments/assets/252af288-f1ee-47d4-ab6c-69a10bd77793)
+直接点击.exe文件即可运行~
