@@ -54,8 +54,9 @@ fun test(username: String, password: String) {
             val loginSubmit: WebElement = driver.findElement(By.id("submitBtn"))
             loginSubmit.click()
 
+            wait
             // 找到学生评教模块
-            val block3tex: WebElement = driver.findElement(By.className("block3tex"))
+            val block3tex: WebElement = wait.until(ExpectedConditions.visibilityOfElementLocated(By.className("block3tex")))
             block3tex.click()
 
             // 找到学生评教入口
